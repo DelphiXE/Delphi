@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.052,=C:\Users\Константин\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.482,C:\Users\Константин\Documents\RAD Studio\Projects\Project1.dproj=D:\Disk Win7HP\Kostik\DELPHI_progs\SSH\SSH_TEST.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.203,=C:\Users\Константин\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.445,=C:\Users\Константин\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.482,D:\Disk Win7HP\Kostik\DELPHI_progs\SSH\SSH_TEST.dproj=C:\Users\Константин\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.052,=C:\Users\Константин\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.203,=C:\Users\Константин\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

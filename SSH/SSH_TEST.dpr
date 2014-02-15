@@ -10,6 +10,7 @@ uses
 
 var
    lSSh : TSSHClient;
+   str : string;
 
 begin
   try
