@@ -14,7 +14,7 @@ var
 
 begin
   try
-   lSSh := TSSHClient.Create('95.78.251.16', '222', 'mate', 'Uafax8Ie');
+   lSSh := TSSHClient.Create('95.78.251.16', '222', 'mate', '');
     { TODO -oUser -cConsole Main : Insert code here }
   except
     on E: Exception do
@@ -22,14 +22,14 @@ begin
   end;
   if lSSh.login then
    begin
-     writeln('Подключился!');
+     writeln('ГЏГ®Г¤ГЄГ«ГѕГ·ГЁГ«Г±Гї!');
      writeln(lSSh.ReceiveData);
      lSSh.SendCommand('df -h');
      writeln(lSSh.ReceiveData);
      lSSh.LogOut;
-     writeln('Отключился.');
+     writeln('ГЋГІГЄГ«ГѕГ·ГЁГ«Г±Гї.');
    end
    else
-    writeln('Не могу подключиться.');
+    writeln('ГЌГҐ Г¬Г®ГЈГі ГЇГ®Г¤ГЄГ«ГѕГ·ГЁГІГјГ±Гї.');
    lSSh.Free;
 end.
